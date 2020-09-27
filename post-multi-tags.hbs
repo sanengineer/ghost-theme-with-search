@@ -17,13 +17,16 @@ into the {body} of the default.hbs template --}}
 
             <header class="post-full-header">
 
-                {{#if primary_tag}}
+                {{!-- {{#if primary_tag}} --}}
+                {{!-- {{ #if tags}} --}}
                 <section class="post-full-tags">
-                    {{#primary_tag}}
+                    {{!-- {{#primary_tag}} --}}
+                    {{#tags}}
                     <a href="{{url}}">{{name}}</a>
-                    {{/primary_tag}}
+                    {{/tags}}
+                    {{!-- {{/primary_tag}} --}}
                 </section>
-                {{/if}}
+                {{!-- {{/if}} --}}
 
                 <h1 class="post-full-title">{{title}}</h1>
 
