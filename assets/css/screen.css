@@ -745,7 +745,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .author-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -760,7 +760,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .static-avatar {
   display: block;
   overflow: hidden;
-  margin: 0 0 0 -6px;
+  margin: 0 0 0 0;
   width: 34px;
   height: 34px;
   border: unset;
