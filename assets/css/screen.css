@@ -713,6 +713,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-excerpt {
   max-width: 56em;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   color: var(--midgrey);
 }
 
@@ -969,6 +970,7 @@ make sure this only happens on large viewports / desktop-ish devices.
   line-height: 1.4em;
   font-weight: 600;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .post-full-meta-date {
@@ -1036,9 +1038,10 @@ make sure this only happens on large viewports / desktop-ish devices.
   margin: 0 auto;
   padding: 0 170px 6vw;
   min-height: 230px;
-  font-size: 2rem;
+  font-size: 17px;
   line-height: 1.6em;
   background: #fff;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 
 @media (max-width: 1170px) {
