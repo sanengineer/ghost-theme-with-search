@@ -6,7 +6,7 @@ Ghost is the most populer headless cms on github, this theme I created from [cas
 
 # 📦 Download On Zip File
 
-[![sancasper - ghost theme with search - based on casper](https://img.shields.io/badge/sancasper-1.0.0-green)](https://www.npmjs.com/package/sanstrap)
+[![sancasper - ghost theme with search - based on casper](https://img.shields.io/badge/sancasper-1.0.0-green)](https://github.com/sanengineer/ghost-theme-with-search/archive/1.0.0.zip)
 
 # 🔨 Development Guide
 
