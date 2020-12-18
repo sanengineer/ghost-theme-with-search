@@ -1,8 +1,8 @@
 {
   "name": "sancasper",
-  "description": "A clean, minimal default theme for the Ghost publishing platform",
+  "description": "A clean, minimal default theme for the Ghost publishing platform with search content feature",
   "demo": "https://sanengineer.com",
-  "version": "3.0.8",
+  "version": "1.0.0",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
