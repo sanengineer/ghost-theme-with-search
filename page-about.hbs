@@ -3,6 +3,13 @@
 into the {body} of the default.hbs template --}}
 
 {{!-- The big featured header, it uses blog cover image as a BG if available --}}
+<header class="site-header">
+    <div class="outer site-nav-page-about-main">
+        <div class="inner">
+            {{> "site-nav-page-about"}}
+        </div>
+    </div>
+</header>
 
 
 {{!-- Everything inside the #post tags pulls data from the post --}}

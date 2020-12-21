@@ -279,6 +279,24 @@ body {
   background: color(var(--darkgrey) l(-5%));
 }
 
+.site-nav-page-about-main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background: var(--darkmode);
+}
+
+.site-nav-page-about-main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+}
+
 .site-nav {
   position: relative;
   z-index: 100;
@@ -355,6 +373,21 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
   margin-right: 32px;
   padding: 12px 0;
   color: #fff;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-transform: none;
+}
+
+.nav-page-about-logo {
+  position: relative;
+  z-index: 100;
+  flex-shrink: 0;
+  display: inline-block;
+  margin-right: 32px;
+  padding: 12px 0;
+  color: rgb(0, 126, 211);
   font-size: 1.7rem;
   line-height: 1.8rem;
   font-weight: bold;
@@ -3136,10 +3169,12 @@ Usage (In Ghost editor):
   width: 100%;
   color: var(--dark-gray-color);
   font-size: 15px;
-  background-color: var(--whitepure);
+  background-color: var(--whitepuretransparent);
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -webkit-overflow-scrolling: touch;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .search-result-row + .search-result-row {

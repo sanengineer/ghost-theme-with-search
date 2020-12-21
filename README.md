@@ -8,7 +8,7 @@ Ghost is the most populer headless cms on github, this theme I created from [cas
 
 [![sancasper - ghost theme with search - based on casper](https://img.shields.io/badge/sancasper-1.0.0-green)](https://github.com/sanengineer/ghost-theme-with-search/archive/1.0.0.zip)
 
-# How To Use Search Feature
+# 🔍 How To Use Search Feature
 
 1.  Get Generate API Key For Content
 
