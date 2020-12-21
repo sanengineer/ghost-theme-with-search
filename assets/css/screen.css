@@ -3277,3 +3277,88 @@ input[type="search"]:focus {
   color: #e40053;
   white-space: normal;
 }
+
+/*CSS Tag TV*/
+.tag-tv img {
+  border-radius: 10px;
+}
+
+.tag-tv .post-feed {
+  position: relative;
+  display: flex;
+  flex-wrap: unset;
+  margin: 67px 0px 0px 0px;
+  padding: 0px 0 0vw;
+}
+
+.tag-tv .post-card-image {
+  width: unset;
+  height: 140px;
+  background: unset;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tag-tv .post-card {
+  flex: unset;
+  flex-direction: unset;
+  overflow: hidden;
+  margin: 0 20px 60px;
+  min-height: 0px;
+  background: transparent;
+  background-size: cover;
+  transition: all 0.5s ease;
+  display: inline-block;
+}
+
+.tag-tv .post-card-title {
+  font-size: 1.5rem;
+}
+
+.related-tag-tv {
+  position: relative;
+  /* flex: 1 1 100%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  overflow: hidden;
+  margin: 40px auto;
+  padding: 25px;
+
+  border-radius: 3px;
+  flex-wrap: unset;
+}
+
+.wrapper-related-card-content {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+.related-card-post {
+  padding: 20px;
+}
+
+.tag-tv .post-card-image-tag-tv {
+  height: 180px;
+  width: unset;
+  background: unset;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tag-tv .post-full-content {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0px 0vw;
+  min-height: 230px;
+  font-size: 17px;
+  line-height: 1.6em;
+}
+
+.tag-tv .post-full-header {
+  padding: 0px;
+}
+
+.tag-tv .post-full-header h1 {
+  font-size: 2rem;
+}
