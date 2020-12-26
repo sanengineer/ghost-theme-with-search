@@ -11,6 +11,8 @@ Ghost is the most populer headless cms on github, this theme I created from [cas
 # 🔍 How To Use Search Feature
 
 1.  Get Generate API Key For Content
+    Go to Integrations on sidebar (admin ghost dashboard), and custom integration.
+    ![Create API Content Of Ghost Blog](https://res.cloudinary.com/dsv9w1ey3/image/upload/v1608972110/github-images/Create_API_Content_Ghost_Blog_hujwac.png)
 
 # 🔨 Development Guide
 
